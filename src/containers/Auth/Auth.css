@@ -1,0 +1,37 @@
+.Auth{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 3px 4px 5px rgb(121, 111, 111);
+    border: 2px solid #665f5f;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #022535cc;
+}
+
+.Auth button {
+    background-color: transparent;
+    border: none;
+    color: #5C9210;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    border:1px solid darkgoldenrod;
+    margin: 10px 10px 40px 10px ;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Auth button:hover{
+    color: white;
+    background-color:#5C9210;
+}
+
+
+
+@media (min-width: 700px){
+    .Auth{
+        width: 500px;
+    }
+}
+

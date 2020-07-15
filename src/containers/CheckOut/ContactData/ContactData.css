@@ -1,0 +1,40 @@
+.ContactData{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 3px 4px 5px rgb(121, 111, 111);
+    border: 2px solid #665f5f;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #022535cc;
+}
+
+.ContactData form h4{
+    text-shadow: 8px 6px 20px rgb(41, 39, 39);
+    color: #e9ecead6;
+    z-index: 10;
+}
+
+.ContactData button {
+    background-color: transparent;
+    border: none;
+    color: #5C9210;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    border:1px solid darkgoldenrod;
+    margin: 10px 10px 40px 10px ;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ContactData button:hover{
+    color: white;
+    background-color:#5C9210;
+}
+
+@media (min-width: 600px){
+    .ContactData{
+        width: 500px;
+    }
+}
